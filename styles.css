@@ -33,9 +33,11 @@ button {
     border-radius: 4px;
     border: 1px solid black;
     cursor: pointer;
-    position: absolute;
+    position: absolute; 
 }
-
+/* your button in wrong place. use top, left, right, bottom for elements when you use position instead of margin.*/
+/* when you use position: absolute for element his parent also must have position: relative, fixed or else. */
+/* remove outline from button */
 .left {
     margin-top: 150px;
     margin-left: 360px;
