@@ -16,4 +16,4 @@ left.addEventListener('click', function(){
     }
     list.scrollLeft -= 390;
 });
-
+/* ... Add a disabled class and style a button with this class accordingly if clicking the button would have no effect (i.e., there are no more images to display). */
